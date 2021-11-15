@@ -11,8 +11,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="GlobalResources\00-monkey-sml.png" />
+    <None Remove="GlobalResources\AJ_Digital_Camera.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Resizetizer.NT" Version="0.2.0" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SharedImage Include="GlobalResources\00-monkey-sml.png" Basesize="860,860" />
+    <SharedImage Include="GlobalResources\AJ_Digital_Camera.svg" Basesize="200,300" />
   </ItemGroup>
 </Project>
